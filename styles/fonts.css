@@ -1,0 +1,69 @@
+/* fonts */
+
+/* mono Regular */
+
+@font-face {
+  font-family: 'IBMPlexMono-Regular';
+  src: url('../fonts/IBMPlexMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IBMPlexMono-Regular-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexMono-Regular-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+/*  mono Italic */
+
+@font-face {
+  font-family: 'IBMPlexMono-Italic';
+  src: url('../fonts/IBMPlexMono-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IBMPlexMono-Italic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexMono-Italic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: oblique;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+/* mono SemiBold */
+
+@font-face {
+  font-family: 'IBMPlexMono-SemiBold';
+  src: url('../fonts/IBMPlexMono-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IBMPlexMono-SemiBold-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexMono-SemiBold-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+/* mono SemiBoldItalic */
+
+@font-face {
+  font-family: 'IBMPlexMono-SemiBoldItalic';
+  src: url('../fonts/IBMPlexMono-SemiBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IBMPlexMono-SemiBoldItalic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexMono-SemiBoldItalic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: oblique;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+/* serif regular */
+
+@font-face {
+  font-family: 'IBMPlexSerif-Regular';
+  src: url('../fonts/IBMPlexSerif-Regular-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexSerif-Regular-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+/* serif SemiBoldItalic */
+@font-face {
+  font-family: 'IBMPlexSerif-Regular';
+  src: url('../fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: oblique;
+  font-weight: 700;
+  font-stretch: normal;
+}
