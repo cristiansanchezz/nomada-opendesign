@@ -24,19 +24,15 @@ html {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 70px 1fr 80px;
+    grid-template-rows: 70px 400px 80px;
     grid-gap: 10px;
     width: 90vw;
     max-width: 1430px;
     margin-left: auto;
     margin-right: auto;
-    height: 70vh;
+    height: 88vh;
     z-index: 1;
-    padding-left: 5vw;
-    padding-right: 5vw;
     padding-top: 1vw;
-    padding-bottom: 5vw;
-
 
 }
 
@@ -91,6 +87,7 @@ html {
 .imagen-principal{
   grid-column: 5/9;
   grid-row: 2;
+  max-width: -moz-min-content;
 
 }
 
@@ -107,13 +104,13 @@ html {
 .footer2 {
   grid-column: 5/7;
   grid-row: 3;
-  width: auto;
+  width: 400px;
 }
 
 .footer1 {
   grid-column: 1/7;
   grid-row: 3;
-  width: inherit;
+  width: auto;
 }
 
 /* CSS link color*/
