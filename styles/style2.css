@@ -115,10 +115,10 @@ html {
 
 /* Text Bold */
 
-.boldtelf{
-  font-family: 'IBMPlexMono-SemiBold'
-  font-style:normal;
-  font-weight: 700;
+.telf{
+  font-family: 'IBMPlexMono-Italic';
+  font-style:oblique;
+  font-weight: 300;
 }
 
 /* CSS link color*/
