@@ -30,7 +30,7 @@ html {
     max-width: 1042px;
     margin-left: auto;
     margin-right: auto;
-    height: 87vh;
+    height: 42vw;
     z-index: 1;
     padding-top: 1vw;
 
@@ -154,7 +154,7 @@ html {
 
 /* media queries */
 
- @media (max-width:350px) {
-   .header {font-weight: 20pt}
+ @media (max-width:630px) {
+   .header {font-size: 1.5em;}
 
  }
