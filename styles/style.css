@@ -150,3 +150,11 @@ html {
     overflow: unset;
 
 }
+
+
+/* media queries */
+
+ @media (max-width:350px) {
+   .header {font-weight: 20pt}
+
+ }
