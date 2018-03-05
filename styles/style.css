@@ -39,7 +39,6 @@ body {
     min-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    height: 54vw;
     z-index: 1;
     padding-top: 1vw;
 
@@ -147,7 +146,9 @@ body {
 
 .link:active{
   color: #051df7;
-  
+  font-family: 'IBMPlexMono-SemiBold';
+  font-weight:700;
+  font-style: normal;
 }
 
 /* images */
