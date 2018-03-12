@@ -172,7 +172,7 @@ body {
 @media (max-width:1024px){
  .wrapper{grid-template-rows: 10px 50px 0.2fr 0.2fr 50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 20px;}
  .header {font-size: 8em;}
- .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 30px; width: 80vw;}
+ .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 30px; width: 85vw;}
  .footer {font-size: 3em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
  .principal{grid-column: 2/9; grid-row: 4; width: 90vw;}
  .principal p {font-size: 3em; margin-left: 0px; margin-right: 30px;}
