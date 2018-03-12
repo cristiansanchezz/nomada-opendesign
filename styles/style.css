@@ -184,3 +184,10 @@ body {
  .footer {font-size: 1.2em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
 
  }
+ @media (min-width:630px) {
+ .header {font-size: 4.4em;}
+ .imagen-principal{grid-column: 2/9; grid-row: 3; width: 80%;}
+ .wrapper{grid-template-rows: 10px 30px 0.5fr 1fr 50px; grid-template-columns: 10px repeat(7, 1fr); grid-gap: 10px;}
+ .principal{grid-column: 2/9; grid-row: 4; width: 350px; }
+ .principal p {font-size: 1.4em; margin-left: 0px;}
+ .footer {font-size: 1.2em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
