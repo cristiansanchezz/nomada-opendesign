@@ -173,9 +173,9 @@ body {
  .wrapper{grid-template-rows: 10px 50px 0.2fr 0.2fr 50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 20px;}
  .header {font-size: 5em;}
  .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 30px; width: 85vw; min-width: 80vw; }
- .footer {font-size: 1.2em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
+ .footer {font-size: 1.5em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
  .principal{grid-column: 2/9; grid-row: 4; width: 90vw; min-width: 80vw;}
- .principal p {font-size: 1.2em; margin-left: 0px; margin-right: 30px;}
+ .principal p {font-size: 1.5em; margin-left: 0px; margin-right: 30px;}
 
 }
 
