@@ -150,9 +150,9 @@ body {
 }
 
 .link2{
-  font-family: 'IBMPlexSerif-Regular';
-  font-size: 700;
-  font-style: normal;
+  font-family: 'IBMPlexSerif-Italic';
+  font-size: 400;
+  font-style: oblique;
   color: #051df7;
   text-decoration: none;
 }
