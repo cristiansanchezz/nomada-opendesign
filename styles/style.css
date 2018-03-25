@@ -321,9 +321,9 @@ body {
 @media (max-width:1024px){
  .wrapper{grid-template-rows: 10px 10px 0.2fr 0.2fr 50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 6px; width: 530px;}
  .header {font-size: 5em; margin-left: 10px;}
- .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 30px; width: 65vw; min-width: 70vw; }
+ .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 20px; width: 86vw; min-width: 79vw; }
  .footer {font-size: 1.5em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
- .principal{grid-column: 2/9; grid-row: 4; width: 75vw; min-width: 70vw; margin-bottom: 10px;}
+ .principal{grid-column: 2/9; grid-row: 4; width: 84vw; min-width: 70vw; margin-bottom: 10px;}
  .principal p {font-size: 1.5em; margin-left: 0px; margin-right: 10px;}
 
 }
