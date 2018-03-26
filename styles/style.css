@@ -35,7 +35,7 @@ body {
     grid-template-rows: 10px 45px 1fr 50px;
     grid-gap: 20px;
     width: 90vw;
-    max-width: 1042px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
@@ -338,11 +338,11 @@ body {
 }
 
 @media (min-width:1720px){
-  .wrapper{ grid-template-columns: 10px repeat(7, 1fr);  grid-template-rows: 10px 45px 1fr 50px; grid-gap: 20px; min-width:530px;  }
+  .wrapper{ grid-template-columns: 10px repeat(7, 1fr);  grid-template-rows: 10px 45px 1fr 200px; grid-gap: 20px; }
   .header{font-size: 6em;}
-  .principal{font-size: 1em; width: 55vw; min-width: 56vw; }
-  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 55vw; min-width: 900px;}
-  .footer {font-size: 1em; grid-column: 2/9; grid-row: 4; margin-left: 10px;}
+  .principal{font-size: 1em; width: 56vw; min-width: 50vw; }
+  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 60vw; min-width: 900px;}
+  .footer {font-size: 1em; grid-column: 2/9; grid-row: 4; margin-left: 10px; position:relative; top: 50%;}
   .p2-nomada {display: inherit;}
 
 
