@@ -69,6 +69,7 @@ body {
   justify-content: center;
   resize: vertical;
   overflow: unset;
+  margin-top: 10px;
 
 }
 .principal p{
