@@ -340,9 +340,9 @@ body {
 @media (min-width:1720px){
   .wrapper{ grid-template-columns: 10px repeat(7, 1fr);  grid-template-rows: 10px 45px 1fr 200px; grid-gap: 20px; }
   .header{font-size: 6em;}
-  .principal{font-size: 1em; width: 56vw; min-width: 50vw; }
+  .principal{font-size: 1.1em; width: 58vw; min-width: 50vw; }
   .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 60vw; min-width: 900px;}
-  .footer {font-size: 1em; grid-column: 2/9; grid-row: 4; margin-left: 10px; position:relative; top: 50%;}
+  .footer {font-size: 1.1em; grid-column: 2/9; grid-row: 4; margin-left: 10px; position:relative; top: 50%;}
   .p2-nomada {display: inherit;}
 
 
