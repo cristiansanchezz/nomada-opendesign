@@ -7,6 +7,8 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    font-kerning: normal;
+    line-height: 1.15;
 }
 
 body {
@@ -35,7 +37,7 @@ body {
     grid-template-rows: 10px 45px 1fr 50px;
     grid-gap: 20px;
     width: 90vw;
-    max-width: 1280px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
@@ -52,7 +54,7 @@ body {
 .header{
   font-family: 'IBMPlexMono-SemiBoldItalic';
   font-weight: 700;
-  font-style: oblique;
+  font-style: italic;
   font-size: 6em;
   color: #414549;
   margin: 0%;
@@ -142,18 +144,18 @@ body {
 
 .telf{
   font-family: 'IBMPlexMono-Italic';
-  font-style:oblique;
+  font-style: italic;
   font-weight: 300;
 }
 
 .p-nomada{
   font-family: 'IBMPlexSerif-Italic';
-  font-style: oblique;
+  font-style: italic;
 }
 
 .p2-nomada{
   font-family: 'IBMPlexSerif-Italic';
-  font-style: oblique;
+  font-style: italic;
 
 }
 
@@ -168,7 +170,7 @@ body {
 .link2{
   font-family: 'IBMPlexSerif-Italic';
   font-size: 400;
-  font-style: oblique;
+  font-style: italic;
   color: #051df7;
   text-decoration: none;
 }
@@ -192,14 +194,14 @@ body {
   color: #051df7;
   font-family: 'IBMPlexSerif-SemiBoldItalic';
   font-weight:700;
-  font-style: oblique;
+  font-style: italic;
 }
 
 .link2:active{
   color: #051df7;
   font-family: 'IBMPlexSerif-SemiBoldItalic';
   font-weight:700;
-  font-style: oblique;
+  font-style: italic;
 }
 
 /*
@@ -333,7 +335,7 @@ body {
   .wrapper {grid-template-rows: 10px 45px 1fr  50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 10px; width: 70vw;}
   .header {font-size: 5em; margin-left: 10px;}
   .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 65vw; max-width: 70vw}
-  .principal { font-size: 1em ;grid-column: 2/9; grid-row:3; width: 60vw;}
+  .principal { font-size: 1em ;grid-column: 2/9; grid-row:3; width: 62vw;}
   .footer {font-size: 1em; grid-column: 2/9; grid-row: 4; margin-left: 10px;}
   .p2-nomada {display: none;}
 }
@@ -396,7 +398,5 @@ body {
 @media (min-width: 768px)
 @media (min-width: 630px)
 @media (max-width: 630px)
-
-
 
 */

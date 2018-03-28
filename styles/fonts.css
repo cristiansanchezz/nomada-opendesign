@@ -18,7 +18,7 @@
   src: url('../fonts/IBMPlexMono-Italic.eot'); /* IE9 Compat Modes */
   src: url('../fonts/IBMPlexMono-Italic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/IBMPlexMono-Italic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: oblique;
+  font-style: italic;
   font-weight: 400;
   font-stretch: normal;
 }
@@ -42,7 +42,7 @@
   src: url('../fonts/IBMPlexMono-SemiBoldItalic.eot'); /* IE9 Compat Modes */
   src: url('../fonts/IBMPlexMono-SemiBoldItalic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/IBMPlexMono-SemiBoldItalic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: oblique;
+  font-style: italic;
   font-weight: 700;
   font-stretch: normal;
 }
@@ -61,10 +61,10 @@
 /* serif SemiBoldItalic */
 
 @font-face {
-  font-family: 'IBMPlexSerif-Regular';
+  font-family: 'IBMPlexSerif-SemiBoldItalic';
   src: url('../fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: oblique;
+  font-style: italic;
   font-weight: 700;
   font-stretch: normal;
 }
@@ -75,7 +75,7 @@
   font-family: 'IBMPlexSerif-Italic';
   src: url('../fonts/IBMPlexSerif-Italic-Latin1.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/IBMPlexSerif-Italic-Latin1.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: oblique;
+  font-style: italic;
   font-weight: 400;
   font-stretch: normal;
 }
