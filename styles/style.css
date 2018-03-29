@@ -334,17 +334,17 @@ body {
 @media (min-width:1024px) {
   .wrapper {grid-template-rows: 10px 45px 1fr  50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 10px; width: 70vw;}
   .header {font-size: 5em; margin-left: 10px;}
-  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 65vw; max-width: 70vw}
-  .principal { font-size: 1em ;grid-column: 2/9; grid-row:3; width: 62vw;}
+  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 65vw; min-width:850px;}
+  .principal { font-size: 1em ;grid-column: 2/9; grid-row:3; width: 62vw; min-width: 800px;}
   .footer {font-size: 1em; grid-column: 2/9; grid-row: 4; margin-left: 10px;}
-  .p2-nomada {display: none;}
+
 }
 
 @media (min-width:1720px){
   .wrapper{ grid-template-columns: 10px repeat(7, 1fr);  grid-template-rows: 10px 45px 1fr 200px; grid-gap: 20px; }
   .header{font-size: 6em;}
-  .principal{font-size: 1.1em; width: 58vw; min-width: 50vw; }
-  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 60vw; min-width: 900px;}
+  .principal{font-size: 1.1em; width: 56vw; min-width: 1095px; }
+  .imagen-principal {grid-column: 2/9; grid-row: 2; margin-right: 30px; width: 60vw; min-width: 1100px;}
   .footer {font-size: 1.1em; grid-column: 2/9; grid-row: 4; margin-left: 10px; position:relative; top: 50%;}
   .p2-nomada {display: inherit;}
 
