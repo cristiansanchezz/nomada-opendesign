@@ -326,7 +326,7 @@ body {
  .header {font-size: 5em; margin-left: 10px;}
  .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 20px; width: 86vw; min-width: 70vw; }
  .footer {font-size: 2em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
- .principal{grid-column: 2/9; grid-row: 4; width: 92vw; margin-bottom: 50px;}
+ .principal{grid-column: 2/9; grid-row: 4; width: 93vw; margin-bottom: 50px;}
  .principal p {font-size: 2em; margin-left: 0px; margin-right: 10px;}
 
 }
