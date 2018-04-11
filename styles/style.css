@@ -324,9 +324,9 @@ body {
 @media (max-width:1024px){
  .wrapper{grid-template-rows: 10px 10px 0.2fr 0.2fr 50px; grid-template-columns: 20px repeat(7, 1fr); grid-gap: 6px; width: 950px;}
  .header {font-size: 5em; margin-left: 10px;}
- .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 20px; width: 86vw; min-width: 70vw; }
+ .imagen-principal{grid-column: 2/9; grid-row: 3; margin-right: 20px; width: 86vw; min-width: 850px; }
  .footer {font-size: 3.5em; grid-column: 2/9; grid-row: 5; margin-left: 0px;}
- .principal{grid-column: 2/9; grid-row: 4; width: 94vw; margin-bottom: 50px;}
+ .principal{grid-column: 2/9; grid-row: 4; width: 94vw; margin-bottom: 50px; min-width: 850px;}
  .principal p {font-size: 4em; margin-left: 0px; margin-right: 10px;}
 
 }
