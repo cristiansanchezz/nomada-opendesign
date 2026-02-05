@@ -1,8 +1,10 @@
 # nomada-web
 # cristiansanchezz.github.io/nomada-opendesign
+Thank you for your interest in Nómada. 
 
 You can access the content under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license(https://creativecommons.org/licenses/by-nc-nd/4.0/). 
-In the resources link, you will find the assembly instructions, the required materials, and the complete documentation explaining how the project was developed.
+
+In the resources folder, you will find the assembly instructions and the materials needed to build the furniture systems, along with the complete documentation explaining how the project was developed.
 
 ✅ You are allowed to
 	•	Share — copy and redistribute the material in any medium or format.
